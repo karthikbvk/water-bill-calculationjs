@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h1>Water bill Calculation</h1>
+<div>
+        <div>
+            <div>
+                <span>
+                    <label>
+                        Power Bill
+                    </label>
+                    <input id="pbill"  value=""/>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label>
+                        Meter charges
+                    </label>
+                    <input id="Mcbill"  value="2425.5"/>
+                </span>
+                <span>
+                    <label>
+                        Actual charges
+                    </label>
+                    <input id="Acbill"  value="2167.5"/>
+                </span>
+            </div>
+            
+            <div>
+                <span>
+                    <label>
+                       JAYKIRAN  water reading 
+                    </label>
+                    <input id="wtr1"  name ="array[]"  value="2333"/>
+                </span>
+                <span>
+                    <label>
+                       JAYKIRAN  Meterchrg bill 
+                    </label>
+                    <input id="Mcbil0" type="number" />
+                </span>
+                <span>
+                    <label>
+                       JAYKIRAN  Min bill 
+                    </label>
+                    <input id="Acbil0" type="number" />
+                </span>
+                <span>
+                    <label>
+                       JAYKIRAN  Total bill 
+                    </label>
+                    <input id="Totalbil0" type="number" />
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label>
+                       KARTHIK water reading 
+                    </label>
+                    <input id="wtr2"  name ="array[]" value="1777"/>
+                </span>
+                <span>
+                    <label>
+                       KARTHIK Meterchrg bill 
+                    </label>
+                    <input id="Mcbil1"  type ="number" />
+                </span>
+                <span>
+                    <label>
+                       KARTHIK Min bill 
+                    </label>
+                    <input id="Acbil1" type="number" />
+                </span>
+                <span>
+                    <label>
+                       KARTHIK Total bill 
+                    </label>
+                    <input id="Totalbil1" type="number" />
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label>
+                       SOJI water reading 
+                    </label>
+                    <input id="wtr3"   name ="array[]" value="3316"/>
+                </span>
+                <span>
+                    <label>
+                       SOJI Meterchrg bill 
+                    </label>
+                    <input id="Mcbil2"  type ="number" />
+                </span>
+                <span>
+                    <label>
+                       SOJI Min bill 
+                    </label>
+                    <input id="Acbil2" type="number" />
+                </span>
+                <span>
+                    <label>
+                       SOJI Total bill 
+                    </label>
+                    <input id="Totalbil2" type="number" />
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label>
+                       KRISHNA water reading 
+                    </label>
+                    <input id="wtr4"  name ="array[]" value="1474"/>
+                </span>
+                <span>
+                    <label>
+                       KRISHNA Meterchrg bill 
+                    </label>
+                    <input id="Mcbil3"  type ="number" />
+                </span>
+                <span>
+                    <label>
+                       KRISHNA Min bill 
+                    </label>
+                    <input id="Acbil3" type="number" />
+                </span>
+                <span>
+                    <label>
+                       KRISHNA Total bill 
+                    </label>
+                    <input id="Totalbil3" type="number" />
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label>
+                       MANJU water reading 
+                    </label>
+                    <input id="wtr5"  name ="array[]" value="3503"/>
+                </span>
+                <span>
+                    <label>
+                       MANJU Meterchrg bill 
+                    </label>
+                    <input id="Mcbil4"  type ="number" />
+                </span>
+                <span>
+                    <label>
+                       MANJU Min bill 
+                    </label>
+                    <input id="Acbil4" type="number" />
+                </span>
+                <span>
+                    <label>
+                       MANJU Total bill 
+                    </label>
+                    <input id="Totalbil4" type="number" />
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label>
+                       RABINDRA water reading 
+                    </label>
+                    <input id="wtr6"  name ="array[]" value="3742"/>
+                </span>
+                <span>
+                    <label>
+                       RABINDRA Meterchrg bill 
+                    </label>
+                    <input id="Mcbil5"  type ="number" />
+                </span>
+                <span>
+                    <label>
+                       RABINDRA Min bill 
+                    </label>
+                    <input id="Acbil5" type="number" />
+                </span>
+                <span>
+                    <label>
+                       RABINDRA Total bill 
+                    </label>
+                    <input id="Totalbil5" type="number" />
+                </span>
+            </div>
+            <div>
+                <label>Total Litre</label>
+                <input id="Lit"  type ="number" />
+            </div>
+            
+        </div>
+<div>
+    <div>
+        <label>
+            Per Litre charges
+        </label>
+        <input id="perLitre" >
+    </div>
+
+</div>
+    <div>
+</div>
+    <label>
+        Final amount 
+    </label>
+    <input id="result" >
+</div>
+<div>
+    <button type="button" onclick="calculate()">Calculate</button>
+
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
